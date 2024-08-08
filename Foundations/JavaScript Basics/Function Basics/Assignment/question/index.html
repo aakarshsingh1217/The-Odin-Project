@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin project questions</title>
+    </head>
+    <body>
+        <script>
+            /*let x = 3;
+            let y = 4;
+            function add7(x) {
+                return x + 7;
+            }
+            console.log(add7(x))
+
+            function multiply(x, y) {
+                return x * y;
+            }
+
+            console.log(multiply(x, y));*/
+
+            /*function capitalize(str) {
+                if (str.length === 0) {
+                    return str;  // Return empty string if input is empty
+                }
+                return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+            }
+
+            console.log(capitalize(str));*/
+
+            /*let str = "heyyy";
+            
+            function lastLetter(str) {
+                return str.charAt(str.length - 1);
+            }
+
+            console.log(lastLetter(str));*/
+
+            let x = parseInt(prompt("Please enter the number you'd like: "))
+
+            function fizzBuzz(x) {
+                for (let i = 1; i <= x; i++) {
+                    if ((i % 3 == 0) && (i % 5 == 0)) {
+                        console.log("FizzBuzz");
+                    } else if (i % 3 == 0) {
+                        console.log("Fizz");
+                    } else if (i % 5 == 0) {
+                        console.log("Buzz");
+                    } else {
+                        console.log(i);
+                    }
+                }
+            }
+
+            fizzBuzz(x);
+        </script>
+    </body>
+</html>
