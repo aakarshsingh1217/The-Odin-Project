@@ -3,5 +3,3 @@
 
 ### Other web dev experience
 > I learnt the ASP.NET framework at University, along with SQL
-
-Test to see if I can change this recloned repo.
